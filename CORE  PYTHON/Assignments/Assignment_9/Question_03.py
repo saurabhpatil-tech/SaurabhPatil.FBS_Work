@@ -1,0 +1,16 @@
+
+# Q3. Write a recursive function to reverse a given number.
+
+def reverse_num(n ,rev = 0):
+   
+    if n == 0:
+        return rev
+
+    digit = n % 10
+    rev = rev * 10 + digit
+
+    return reverse_num(n // 10 , rev)
+
+n = int(input("Enter Number :"))
+res = reverse_num(n)
+print("Reversed number :", res)
