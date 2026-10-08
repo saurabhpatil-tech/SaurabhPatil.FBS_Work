@@ -24,7 +24,7 @@ class Book:
 
 
 print("Parameterized Constructor:")
-b1 = Book(101, "Python Programming", 500, "Rishikesh")
+b1 = Book(101, "Python Programming", 500, "Saurabh")
 b1.ShowBook()
 
 print("\nParameterless Constructor:")
